@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+header nav ul li {
+    padding: 1.5em 1em;
+    list-style: none;
+    font-size: 18px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.hero-button {
+    background: linear-gradient(to right, #31d06c , #2bb9cf);
+    color: #fff;
+    border-radius: 18px;
+    border: 1px solid #31d06c;
+    padding: 12px 24px;
+}
+
+.hero-main {
+    height: 110vh;
+    background: #fafafa;
+}
+
+.hero-content-main {
+    overflow: hidden;
+    position: relative;
+    top: -39px;
+}
+
+.hero-image {
+    background-image: url('bg-intro-desktop.svg');
+    /* background-position: bottom; */
+    background-position-y: -16.1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 447px;
+    top: -190px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    top: -110px;
+    left: 265px;
+    position: relative;
+}
+
+.hero-context {
+    position: relative;
+    padding: 0em 5.4em;
+    top: 167px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-context h1 {
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+}
+
+.hero-context p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+    width: 390px;
+    line-height: 20px;
+}
+
+.briefing {
+    height: 90vh;
+    background: #f4f5f7;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 7em 5.5em;
+}
+
+.briefing-content-heading h1 {
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+}
+
+.briefing-content-heading p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+    width: 580px;
+    line-height: 20px;
+}
+
+.briefing-content-heading {
+    display: flex;
+    gap: 19px;
+    flex-direction: column;
+}
+
+.briefing-content {
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+}
+
+.briefing-message {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.briefing-message h3 {
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+}
+
+.briefing-message p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+    width: 254px;
+    line-height: 20px;
+}
+
+.articles {
+    height: 100vh;
+    background: #fafafa;
+    padding: 4.5em 5.5em;
+}
+
+.articles-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.articles-heading h1 {
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+}
+
+.articles-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content img {
+    height: 110%;
+    width: 85%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.articles-flexed {
+    background: #ffffff;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 85%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+    width: 254px;
+    line-height: 20px;
+}
+
+.articles-flexed h4{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+    line-height: 20px;
+}
+
+.articles-flexed p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303249;
+    width: 250px;
+    line-height: 20px;
+}
+
+footer {
+    background: #2d314e;
+    height: 30vh;
+    color: #fefeff;
+    display: flex;
+    flex-direction: row;
+    padding: 4em 5.5em;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    flex: 1;
+}
+
+.logo-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.butty {
+    padding-left: 90px;
+}
